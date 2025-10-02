@@ -1,0 +1,23 @@
+[project]
+name = "anno-tools"
+version = "0.1.0"
+description = "Optimization tools for ANNO games"
+authors = [
+    {name = "Volker Schmidt", email = "volker.schmidt91@gmail.com"}
+]
+requires-python = ">=3.11, <3.13"
+
+[project.urls]
+Repository = "https://github.com/vschmidt91/anno-tools.git"
+[tool.poetry.dependencies]
+numpy = "^2.3.3"
+matplotlib = "^3.10.6"
+plotly = "^6.3.0"
+scipy = "^1.16.2"
+scikit-image = "^0.25.2"
+ipympl = "^0.9.7"
+pillow = "^11.3.0"
+leap-ec = "^0.8.2"
+cma = "^4.4.0"
+moarchiving = "^1.0.0"
+scikit-learn = "^1.7.2"
