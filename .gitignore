@@ -2,3 +2,5 @@
 /lib/
 /.idea/
 /notebooks/outcmaes/
+
+*.pyc
